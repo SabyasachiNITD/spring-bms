@@ -1,7 +1,7 @@
 package com.sabyasachi.bms.models.constants;
 
-public enum Status {
+public enum ShowSeatStatus {
+    AVAILABLE,
     BOOKED,
-    NOT_BOOKED,
-    CANCELLED
+    LOCKED
 }

@@ -1,7 +1,7 @@
 package com.sabyasachi.bms.models.constants;
 
-public enum Status {
+public enum TicketStatus {
+    IN_PROGRESS,
     BOOKED,
-    NOT_BOOKED,
     CANCELLED
 }
